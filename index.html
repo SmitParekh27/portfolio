@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smit Parekh | DevOps · DevSecOps · SRE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Smit Parekh - DevOps / DevSecOps / SRE Engineer focused on CI/CD, Cloud, Security and Observability." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="scroll-progress"></div>
+  <canvas id="particles"></canvas>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <div class="logo-circle">SP</div>
+        <div>
+          <div class="nav-title-main">Smit Parekh</div>
+          <div class="nav-title-sub">DevOps · DevSecOps · SRE</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Technical Skill</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page">
+    <main>
+      <!-- Home -->
+      <section id="home" class="hero">
+        <div>
+          <div class="hero-intro">Hi, I am</div>
+          <h1 class="hero-name"><span id="typed-name"></span><span class="typed-cursor"></span></h1>
+          <div class="hero-role">DevOps · DevSecOps · Site Reliability Engineer</div>
+          <p class="hero-tagline">
+            Creative and detail-oriented DevOps / DevSecOps engineer with hands-on experience
+            building secure CI/CD pipelines, enabling observability, and automating cloud
+            infrastructure across AWS, Azure, GCP and OCI.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="mailto:smitparekh27@gmail.com" class="btn-primary">Contact Me Now!</a>
+            <a href="https://www.linkedin.com/in/smitparekh27" target="_blank" rel="noopener noreferrer" class="btn-ghost">
+              View LinkedIn Profile
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-pill">
+              <div class="metric-label">Experience</div>
+              <div class="metric-value">3+ years in DevOps | SRE</div>
+            </div>
+            <div class="metric-pill">
+              <div class="metric-label">Cloud</div>
+              <div class="metric-value">AWS · Azure · GCP</div>
+            </div>
+            <div class="metric-pill">
+              <div class="metric-label">Focus Areas</div>
+              <div class="metric-value">Automation · Security · SRE</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="hero-avatar">
+            <img src="assets/profile.jpg" alt="Smit Parekh" class="avatar-img">
+          </div>
+          <div class="hero-card-title">Currently</div>
+          <p class="hero-card-text">
+            DevOps | SRE Engineer at Infopercept Consulting — designing secure pipelines, integrating
+            security tools, and improving reliability through monitoring & automation.
+          </p>
+          <div class="hero-card-tags">
+            <span class="tag">Jenkins</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">GitLab CI/CD</span>
+            <span class="tag">Monitoring</span>
+            <span class="tag">Prisma Cloud</span>
+            <span class="tag">DefectDojo</span>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Portfolio: Experience Areas + Recent Works -->
+      <section id="portfolio" class="scroll-reveal">
+        <div class="section-header">
+          <div class="section-eyebrow">Portfolio</div>
+          <h2 class="section-title">Experience Areas</h2>
+          <p class="section-sub">
+            These are the key areas where I create impact as a DevOps / DevSecOps engineer.
+          </p>
+        </div>
+
+        <div class="area-grid">
+          <article class="area-card">
+            <div class="area-num">01</div>
+            <h3 class="area-name">CI/CD Pipeline Engineering</h3>
+            <p class="area-desc">
+              Design, build, and maintain CI/CD pipelines using Jenkins, GitHub Actions and GitLab CI/CD,
+              automating build, test, security scans and deployment for reliable releases.
+            </p>
+          </article>
+
+          <article class="area-card">
+            <div class="area-num">02</div>
+            <h3 class="area-name">Cloud & Platform Security</h3>
+            <p class="area-desc">
+              Integrate Prisma Cloud, CSPM tools and secure configurations across AWS, Azure,
+              GCP and OCI to protect workloads, enforce policies and reduce misconfigurations.
+            </p>
+          </article>
+
+          <article class="area-card">
+            <div class="area-num">03</div>
+            <h3 class="area-name">Observability & SRE</h3>
+            <p class="area-desc">
+              Implement dashboards, metrics, logs and traces using Grafana, Prometheus,
+              Loki and OpenTelemetry to improve reliability and speed up incident resolution.
+            </p>
+          </article>
+
+          <article class="area-card">
+            <div class="area-num">04</div>
+            <h3 class="area-name">Secure SDLC Automation</h3>
+            <p class="area-desc">
+              Embed static, dynamic and dependency scans into the SDLC using SonarQube, Veracode,
+              SBOM tooling and DefectDojo, providing developers fast feedback on vulnerabilities.
+            </p>
+          </article>
+        </div>
+
+        <div class="section-header" style="margin-top:32px;">
+          <div class="section-eyebrow">My Recent Works</div>
+          <h2 class="section-title">Highlighted Projects</h2>
+          <p class="section-sub">
+            A selection of initiatives where I applied automation, security and observability.
+          </p>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card">
+            <div class="work-label">DevSecOps Framework</div>
+            <h3 class="work-title">Security Box – CI/CD Security Platform</h3>
+            <p class="work-desc">
+              Internal framework that standardizes security checks (SAST, SCA, IaC, container,
+              SBOM) inside CI/CD pipelines and centralizes results in DefectDojo for easier triage.
+            </p>
+            <div class="work-tags">
+              <span class="pill">DevSecOps</span>
+              <span class="pill">Prisma Cloud</span>
+              <span class="pill">DefectDojo</span>
+              <span class="pill">GitHub Actions · GitLab</span>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-label">Observability</div>
+            <h3 class="work-title">Monitoring & Logging Stack</h3>
+            <p class="work-desc">
+              Built unified dashboards using Grafana, Prometheus, Loki and OpenTelemetry,
+              enabling proactive alerting, faster RCA and better insight into production behaviour.
+            </p>
+            <div class="work-tags">
+              <span class="pill">Grafana</span>
+              <span class="pill">Prometheus</span>
+              <span class="pill">Loki</span>
+              <span class="pill">OpenTelemetry</span>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-label">Cloud Security</div>
+            <h3 class="work-title">Multi-Cloud Security Automation</h3>
+            <p class="work-desc">
+              Worked across AWS, Azure, GCP and OCI to automate security checks, enforce policies,
+              and integrate cloud alerts into centralized dashboards and workflows.
+            </p>
+            <div class="work-tags">
+              <span class="pill">AWS · Azure · GCP · OCI</span>
+              <span class="pill">Prisma Cloud</span>
+              <span class="pill">CSPM</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Work: Experience + Education -->
+      <section id="work" class="scroll-reveal">
+        <div class="section-header">
+          <div class="section-eyebrow">Work</div>
+          <h2 class="section-title">My Experience & Education</h2>
+          <p class="section-sub">
+            Journey from software development into DevOps, security and reliability.
+          </p>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <h3 class="section-title" style="font-size:16px;margin-bottom:4px;">My Experience</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">Dec 2024 – Present</div>
+                <div class="tl-title">DevOps Engineer</div>
+                <div class="tl-place">Infopercept Consulting Pvt. Ltd. · Ahmedabad</div>
+                <p class="tl-desc">
+                  Designing secure CI/CD pipelines, integrating security scanners, and improving
+                  infrastructure reliability with monitoring, alerts and automation.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">Apr 2023 – Dec 2024</div>
+                <div class="tl-title">Junior DevOps Engineer</div>
+                <div class="tl-place">Infopercept Consulting Pvt. Ltd. · Ahmedabad</div>
+                <p class="tl-desc">
+                  Built and maintained pipelines in Jenkins, GitHub Actions and GitLab; worked closely
+                  with development and security teams to embed checks into SDLC.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">Dec 2022 – Apr 2023</div>
+                <div class="tl-title">Junior Software Developer</div>
+                <div class="tl-place">Infopercept Consulting Pvt. Ltd. · Ahmedabad</div>
+                <p class="tl-desc">
+                  Started as a developer, focusing on clean code, collaboration and disciplined delivery —
+                  foundation for a DevOps and SRE-oriented career.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="section-title" style="font-size:16px;margin-bottom:4px;">My Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">2021 – 2023</div>
+                <div class="tl-title">Master of Computer Applications (MCA)</div>
+                <div class="tl-place">Dharmsinh Desai University, Nadiad</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">2018 – 2021</div>
+                <div class="tl-title">Bachelor of Computer Applications (BCA)</div>
+                <div class="tl-place">LJ College of Computer Applications, Ahmedabad</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">HSC</div>
+                <div class="tl-title">Science Stream</div>
+                <div class="tl-place">Shri Hari Schools, Amreli</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="tl-period">SSC</div>
+                <div class="tl-title">Secondary Education</div>
+                <div class="tl-place">St. Mary's Higher Secondary School, Amreli</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="scroll-reveal">
+        <div class="section-header">
+          <div class="section-eyebrow">About</div>
+          <h2 class="section-title">Who I Am</h2>
+          <p class="section-sub">
+            DevOps engineer who loves automation, observability and secure-by-design systems.
+          </p>
+        </div>
+        <p class="skill-note">
+          I enjoy taking complex delivery pipelines and making them simple, reliable and secure.
+          My work sits at the intersection of development, operations and security — collaborating
+          with teams to automate repetitive tasks, enforce best practices and create feedback loops
+          through monitoring and dashboards.
+        </p>
+        <p class="skill-note">
+          Outside of tooling and scripts, I care about documentation, clear communication and
+          helping teams adopt modern DevOps and SRE practices in a practical way.
+        </p>
+      </section>
+
+      <!-- Technical Skills -->
+      <section id="skills" class="scroll-reveal">
+        <div class="section-header">
+          <div class="section-eyebrow">Technical Skill</div>
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-sub">
+            Proficient in CI/CD, cloud, security tooling and observability platforms.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <div>
+            <div class="skill-grid">
+              <div class="skill-card" style="--level:90%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Linux</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:88%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Git & Version Control</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:85%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Jenkins / GitHub Actions / GitLab CI</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:82%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Docker & Containerization</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:78%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Cloud Platforms (AWS, Azure, GCP, OCI)</span>
+                  <span class="skill-percent">78%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:80%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Prisma Cloud & CSPM</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:82%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">Grafana, Loki, Prometheus, OTel</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+
+              <div class="skill-card" style="--level:76%;">
+                <div class="skill-name-row">
+                  <span class="skill-name">SonarQube, Veracode, SBOM</span>
+                  <span class="skill-percent">76%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="section-title" style="font-size:16px;margin-bottom:8px;">Tech Stack Snapshot</h3>
+            <p class="skill-note">
+              Below is a quick view of the tools and technologies I work with regularly.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Linux</span>
+              <span class="chip">Git</span>
+              <span class="chip">Jenkins</span>
+              <span class="chip">GitLab CI/CD</span>
+              <span class="chip">GitHub Actions</span>
+              <span class="chip">Docker</span>
+              <span class="chip">AWS</span>
+              <span class="chip">Azure</span>
+              <span class="chip">GCP</span>
+              <span class="chip">OCI</span>
+              <span class="chip">Prisma Cloud</span>
+              <span class="chip">DefectDojo</span>
+              <span class="chip">Grafana</span>
+              <span class="chip">Prometheus</span>
+              <span class="chip">Loki</span>
+              <span class="chip">OpenTelemetry</span>
+              <span class="chip">SonarQube</span>
+              <span class="chip">Veracode</span>
+              <span class="chip">Agile & Scrum</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="scroll-reveal">
+        <div class="section-header">
+          <div class="section-eyebrow">Contact</div>
+          <h2 class="section-title">Let’s Work Together</h2>
+          <p class="section-sub">
+            Open to DevOps, DevSecOps, SRE and cloud-focused roles and collaborations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <div class="contact-highlight">
+              Have an opportunity or idea where automation, security and reliability matter?
+            </div>
+            <p class="contact-text">
+              I’d be happy to discuss how I can help you design pipelines, improve observability,
+              harden cloud infrastructure and support engineering teams with a DevOps mindset.
+            </p>
+          </div>
+
+          <aside class="contact-card">
+            <div class="contact-row">
+              <div class="contact-label">Email</div>
+              <div class="contact-value">
+                <a href="mailto:smitparekh27@gmail.com">smitparekh27@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">
+                <a href="tel:+917383911707">+91 7383911707</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Location</div>
+              <div class="contact-value">Ahmedabad, Gujarat, India</div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Online</div>
+              <div class="social-row">
+                <a href="https://www.linkedin.com/in/smitparekh27" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <span>🔗</span> <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-link">
+                  <span>🐱</span> <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Smit Parekh · DevOps · DevSecOps · SRE
+      </footer>
+    </main>
+  </div>
+
+  <script src="js/particles.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
